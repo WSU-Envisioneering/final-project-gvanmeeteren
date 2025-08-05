@@ -36,6 +36,11 @@ main{
     "fig1 fig2";
 }
 
+a:hover{
+    color: #F08080;
+    transition: 5s;
+}
+
 h2{
     grid-area: hdr2;
 }
@@ -75,4 +80,8 @@ img{
         list-style: none;
         margin-right: 1rem ;
     }
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
